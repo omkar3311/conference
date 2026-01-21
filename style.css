@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.logo {
+    height: 70px;
+}
+
+.navbar {
+    background-color: #23587b; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    left: 50%;
+    bottom: 8px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 70%;
+    left: 15%;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 70%);
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 18px;
+}
+#schedule {
+    padding: 50px 40px;
+    background-color: #f7f9fc;
+    text-align: center;
+}
+
+#schedule h2 {
+    font-size: 28px;
+    color: #1b1d1f;
+    margin-bottom: 30px;
+}
+
+.schedule-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.cal {
+    width: 220px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cal img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.cal h4 {
+    font-size: 16px;
+    color: #0b3c5d;
+    margin-bottom: 8px;
+}
+
+.cal p {
+    font-size: 14px;
+    color: #333;
+}
+#about {
+    padding: 60px 80px;
+    background-color: #ffffff;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #0b3c5d;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+    text-align: justify;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+}
