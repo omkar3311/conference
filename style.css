@@ -160,3 +160,42 @@
 .about-content p {
     margin-bottom: 20px;
 }
+#call-paper {
+    padding: 60px 60px;
+    background-color: #f7f9fc;
+}
+
+#call-paper h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #0b3c5d;
+    margin-bottom: 40px;
+}
+
+.track-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.track-card {
+    width: 320px;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+
+.track-card h3 {
+    font-size: 20px;
+    color: #0b3c5d;
+    margin-bottom: 12px;
+}
+
+.track-card p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #333;
+}
