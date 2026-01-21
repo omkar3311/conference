@@ -93,6 +93,7 @@
     padding: 50px 40px;
     background-color: #f7f9fc;
     text-align: center;
+    
 }
 
 #schedule h2 {
@@ -177,6 +178,7 @@
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 .track-card {
@@ -186,6 +188,9 @@
     border-radius: 6px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
     text-align: center;
+}
+#publication {
+    margin-top: 40px;
 }
 
 .track-card h3 {
@@ -292,4 +297,23 @@
 .speaker-box p {
     font-size: 14px;
     color: #000;
+}
+#special-session {
+    padding: 60px 80px;
+}
+
+#special-session h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#special-session p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #000;
+    text-align: justify;
 }
