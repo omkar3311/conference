@@ -284,6 +284,7 @@
     color: #000;
     margin-bottom: 30px;
     text-align: left;
+    margin-left: 20px;
 }
 
 .committee-box {
@@ -303,7 +304,13 @@
     border-radius: 50%;
     margin-bottom: 15px;
 }
-
+.committee-row{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+    
+}
 .committee-box h4 {
     font-size: 16px;
     color: #000;
