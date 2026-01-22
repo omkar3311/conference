@@ -394,3 +394,43 @@
     color: #2563eb;
     text-decoration: underline;
 }
+#contact-committee {
+    padding: 60px 0;
+}
+
+#contact-committee h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.contact-box {
+    background-color: #e5ecef;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 500px;
+    margin-left: 50px;
+}
+.contact-row {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+.contact-box h4 {
+    margin: 0 0 8px 0;
+    font-size: 18px;
+    color: #000;
+}
+
+.contact-box a {
+    color: #0055aa;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+}
