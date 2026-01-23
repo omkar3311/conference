@@ -492,3 +492,16 @@
 .reg-link a:hover {
     text-decoration: underline;
 }
+.template-link a {
+    color: #0b3c5d;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.template-link a:hover {
+    text-decoration: underline;
+}
+.template-link {
+    margin-left: 140px;
+    display: inline-block;
+}
