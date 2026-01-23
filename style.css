@@ -235,7 +235,7 @@
 }
 
 .track-card {
-    width: 320px;
+    width: 450px;
     padding: 25px;
     background-color: #ffffff;
     border-radius: 6px;
@@ -432,5 +432,63 @@
 }
 
 .contact-box a:hover {
+    text-decoration: underline;
+}
+#registration {
+    padding: 60px 80px;
+}
+
+#registration h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.reg-table {
+    width: 100%;
+    max-width: 900px;
+    border-collapse: collapse;
+    font-size: 16px;
+    background-color: #fff;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.reg-table th,
+.reg-table td {
+    padding: 14px 18px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.reg-table th {
+    background-color: #0b3c5d;
+    color: #fff;
+    font-weight: bold;
+}
+
+.reg-table tr:nth-child(even) {
+    background-color: #f4f7fb;
+}
+
+.reg-table tr:hover {
+    background-color: #e9f0f7;
+}
+.reg-link {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #000;
+    margin-left: 70px;
+}
+
+.reg-link a {
+    color: #0b3c5d;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.reg-link a:hover {
     text-decoration: underline;
 }
