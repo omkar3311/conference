@@ -452,7 +452,7 @@
     text-decoration: underline;
 }
 #registration {
-    padding: 60px 80px;
+    padding: 10px 80px;
 }
 
 #registration h2 {
@@ -471,7 +471,13 @@
     background-color: #fff;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
-
+.reg-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;                         
+    justify-content: center;
+    flex-wrap: nowrap;
+}
 .reg-table th,
 .reg-table td {
     padding: 14px 18px;
@@ -505,9 +511,34 @@
     text-decoration: none;
     margin-left: 5px;
 }
-
+.reg-link1 a {
+    color: #0b3c5d;
+    font-weight: bold;
+    text-decoration: none;
+}
 .reg-link a:hover {
     text-decoration: underline;
+}
+.reg-container {
+  display: flex;
+  align-items: center; 
+  gap: 20px;           
+  margin-top: 20px;
+}
+
+.qr-image {
+  width: 100px;        
+  height: 100px;      
+  object-fit: cover;   
+  border-radius: 8px;  
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.qr-image1 {
+    width: 300px;                
+    height: 250px;
+    object-fit: cover;            
+    border-radius: 12px;           
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
 .template-link a {
     color: #0b3c5d;
