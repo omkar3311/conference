@@ -142,6 +142,25 @@
     color: #ffffff;
     text-align: center;
 }
+.hero-text3 {
+    position: absolute;
+    top: 70%;
+    right: 50%;
+    transform: translate(50%, 70%);
+    color: #ffffff;
+    text-align: center;
+    background: rgba(39, 37, 37, 0.3); 
+    backdrop-filter: blur(5px);      
+    -webkit-backdrop-filter: blur(5px);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.hero-text3 p {
+    font-weight: bold;         
+    display: inline-block;     
+    border-bottom: 3px solid green;
+    font-size:larger;
+}
 .hero-text h1 {
     font-size: 32px;
     margin-bottom: 10px;
@@ -222,12 +241,6 @@
 .about-content p {
     margin-bottom: 20px;
 }
-/* pre {
-   font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
-               Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 0.95rem;
-  line-height: 1.6;
-} */
 #call-paper {
     padding: 60px 60px;
     background-color: #f7f9fc;
