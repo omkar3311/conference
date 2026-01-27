@@ -222,6 +222,12 @@
 .about-content p {
     margin-bottom: 20px;
 }
+/* pre {
+   font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
+               Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.95rem;
+  line-height: 1.6;
+} */
 #call-paper {
     padding: 60px 60px;
     background-color: #f7f9fc;
