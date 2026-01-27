@@ -105,6 +105,30 @@
             </div>
         </section>
 
+        <div class="countdown-wrapper">
+        <p class="title">Conference begins in</p>
+
+        <div class="countdown">
+            <div class="time-box">
+            <span id="days">00</span>
+            <small>Days</small>
+            </div>
+            <div class="time-box">
+            <span id="hours">00</span>
+            <small>Hrs</small>
+            </div>
+            <div class="time-box">
+            <span id="minutes">00</span>
+            <small>Mins</small>
+            </div>
+            <div class="time-box">
+            <span id="seconds">00</span>
+            <small>Secs</small>
+            </div>
+        </div>
+        </div>
+
+
         <section id="about">
     <h2>About the Conference</h2>
 
@@ -225,11 +249,37 @@ SDG 10: Reduced Inequalities & SDG 16: Peace, Justice and Strong Institutions
         </p>
     </div>
 </section>
+
 <footer class="footer">
     <a href="https://github.com/omkar3311" target="_blank" rel="noopener noreferrer">
         Created by omkar3311
     </a>
 </footer>
+<script>
+  const eventDate = new Date("2026-03-23T18:00:00").getTime();
+
+  const timer = setInterval(() => {
+    const now = new Date().getTime();
+    const diff = eventDate - now;
+
+    if (diff <= 0) {
+      clearInterval(timer);
+      document.querySelector(".countdown").innerHTML = "🎉 Conference Started!";
+      return;
+    }
+
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((diff / (1000 * 60)) % 60);
+    const seconds = Math.floor((diff / 1000) % 60);
+
+    document.getElementById("days").textContent = days.toString().padStart(2, "0");
+    document.getElementById("hours").textContent = hours.toString().padStart(2, "0");
+    document.getElementById("minutes").textContent = minutes.toString().padStart(2, "0");
+    document.getElementById("seconds").textContent = seconds.toString().padStart(2, "0");
+  }, 1000);
+</script>
+
 
 </body>
 </html>
