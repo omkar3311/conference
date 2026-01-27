@@ -559,3 +559,9 @@
   margin-top: 4px;
   display: block;
 }
+#map {
+  border-radius: 12px;
+  overflow: hidden; 
+  width: 600px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
