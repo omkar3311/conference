@@ -127,13 +127,21 @@
 
 .hero-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: -10%;
+    left: 18%;
     transform: translate(-50%, 70%);
     color: #ffffff;
     text-align: center;
 }
 
+.hero-text2 {
+    position: absolute;
+    top: -10%;
+    right: -8%;
+    transform: translate(-50%, 70%);
+    color: #ffffff;
+    text-align: center;
+}
 .hero-text h1 {
     font-size: 32px;
     margin-bottom: 10px;
@@ -196,7 +204,7 @@
 }
 
 #about h2 {
-    text-align: center;
+    /* text-align: center; */
     font-size: 28px;
     color: #0b3c5d;
     margin-bottom: 30px;
@@ -208,7 +216,7 @@
     font-size: 16px;
     line-height: 1.7;
     color: #333;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .about-content p {
