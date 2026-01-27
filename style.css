@@ -256,6 +256,9 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
     text-align: center;
 }
+#track{
+    text-align: left;
+}
 #publication {
     margin-top: 40px;
 }
