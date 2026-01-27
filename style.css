@@ -230,12 +230,12 @@
 }
 
 .about-content {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     font-size: 16px;
     line-height: 1.7;
     color: #333;
-    /* text-align: justify; */
+    text-align: justify;
 }
 
 .about-content p {
@@ -612,6 +612,62 @@
   width: 600px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
-#schedule{
+.schedule-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    /* background: linear-gradient(135deg, #8197ac, #0055aa); */
+    padding: 40px;
+}
+
+.schedule-box {
+    background: white;
+    padding: 40px 60px;
+    border-radius: 12px;
     text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    max-width: 600px;
+    width: 100%;
+}
+
+.schedule-box h2 {
+    font-size: 28px;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.schedule-box p {
+    color: #555;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.schedule-placeholder .line {
+    height: 12px;
+    background: #e0e0e0;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    animation: shimmer 1.5s infinite linear;
+}
+
+.schedule-placeholder .short {
+    width: 60%;
+}
+
+@keyframes shimmer {
+    0% { opacity: 0.4; }
+    50% { opacity: 1; }
+    100% { opacity: 0.4; }
+}
+
+.badge {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 6px 16px;
+    background: #003366;
+    color: white;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
 }
